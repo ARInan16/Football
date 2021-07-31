@@ -51,6 +51,7 @@ a{
     transform: scale(1.2);
 }
 /* top-part-end */
+/* player-part */
 .player{
     width: 300px;
     height: 426px;
@@ -68,5 +69,87 @@ a{
     margin-left:180px ;
     margin-right: 210px;
 }
-   
+   /* player-part-end */
 
+/* top-player-part */
+.best-player{
+    text-align: center;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    background-color:blanchedalmond;
+    padding: 15px;
+    overflow: hidden;
+}
+h2{
+    color:rosybrown;
+}
+  .top-player{
+      display: flex;
+    
+  }
+
+.top-player-img img{
+    width: 100%;
+}
+.top-player-info{
+ color: lightslategray;
+}
+.goat{
+   display: none;
+}
+.best-player:hover .goat{
+    display: block;
+}
+/* champion-team-part */
+.the-champions{
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 0 0 50px ghostwhite ;
+    
+}
+.champion{
+    position: relative;
+    overflow: hidden;
+}
+
+.champion-pic img{
+    height: 400px;
+    width: 600px;
+}
+.champion-info{
+    color: wheat;
+    height: 200px;
+    width: 600px;
+    margin-left: 360px;
+    position: absolute;
+    top: 0;
+    display: none;
+    background-color: rgba(150, 122, 53, 0.397);
+}
+.champion:hover .champion-info{
+    display: block;
+}
+.champion:hover .champion-pic{
+    transform: scale(1.2);
+}
+/* footer-start */
+footer{
+    margin-right: 481px;
+margin-left: 400px;
+}
+.copyright{
+width: 480px;
+height: 220px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.football-img img{
+    width: 100%;
+}
+.icon{
+    color: grey;
+    margin-right:10px ;
+}
